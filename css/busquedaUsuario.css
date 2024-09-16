@@ -1,0 +1,211 @@
+body{
+    width: 1080px;
+}
+
+.logo{
+    width: 290px;
+  }
+
+header a{
+width:360px;
+padding-right: 30px;
+
+}
+
+main{
+        
+    display: flex;
+    position:relative;
+    width: 100%;
+    flex-flow:wrap ;
+    margin: 30px auto;
+    
+}
+
+.progress{
+
+height: 0px;
+margin: 20px;
+width: 80%;
+border: 2px solid rgba(139, 139, 139, 0);
+}
+#container{
+    
+   
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    width: 1800px;
+    
+}
+
+.comunidad::marker{color: aqua;}
+.entradas{
+    
+    padding: 10px;
+    width: 550px;
+    margin: 10px;
+    display:flex;
+   
+     box-shadow: 8px 6px rgba(61, 61, 61, 0.514);}
+     
+
+.img-news{
+    width: 350px;
+    height: 250px; 
+    
+    background-color: rgb(48, 48, 48);
+     margin-bottom:20px ;
+     }
+     
+
+
+.usuarioContenedor{
+    display:flex;
+    flex-flow: wrap;
+}
+
+.usuario{width: 100px;
+    height: 100px;
+     border-radius: 50%;
+      margin-left: 20px;}
+ .puntaje{
+    width: 180px;
+    height: 100px;
+    margin-left: 20px;
+    
+}
+
+.puntaje>i{color: rgb(250, 213, 1);
+    margin-top: 40px;
+    }
+
+.descripcion{
+    margin: 20px 0px 0px 20px;
+    width: 343px;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(51, 51, 51);
+    margin-top: 30px;
+    height: 240px;
+    position: relative;
+    
+    
+}
+
+@media screen and (max-width:1080px){
+
+    .progress{
+        margin: -20px 0px;
+    }
+
+
+    header{
+     width: 100%;
+
+     } 
+
+    .entradas{
+        width: 100%;
+    }
+
+    footer{
+        width: 1180px;
+        height: 500px;
+        position: absolute;
+        
+    }
+}
+
+
+@media screen and (max-width:700px){
+    header{
+     width: 690px;
+     display: flex;
+     margin: auto;
+     justify-content: center;
+     } 
+
+
+    .entradas{
+        width: 100%;
+    }
+
+    body{
+        width: 1080px;
+
+    }
+
+    main{
+    
+    display: flex;
+    position:relative;
+    flex-flow: wrap;
+    width: 100%;
+    margin: auto ;    
+}
+
+    .entradas{height: 100%;}
+
+
+    .usuarioContenedor{
+        padding: 10px 0px;
+       flex-flow: wrap;
+    }
+    
+    .puntaje{
+        margin-top:10px ;
+        width: 90%;
+    }
+
+    .descripcion{
+        margin: -30px 0px 0px 20px;
+        width: 343px;
+    }
+
+    footer{
+        height: 630px;
+        width: 780px;
+        position: absolute;
+
+    }
+
+  
+}
+/* 
+@media screen and (max-width:500px){
+    header{
+     width: 690px;
+     
+     display: flex;
+     margin: auto;
+     justify-content: center;
+     } 
+
+    .logo{
+       
+        width: 490px;
+        margin: auto;
+        justify-content: center;
+    }
+    
+.entradas{
+        width: 100%;
+    }
+
+    body{
+    width: 590px;
+}
+
+footer{
+   position: absolute;
+    height: 600px;
+    width: 690px;
+}
+
+} */

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>BLOG</title>
+
+    <style>
+            .progress{
+           margin-bottom: 50px;
+            height: 0px;
+            margin: 10px;
+            width: 100%;
+            border: 2px solid rgba(139, 139, 139, 0);
+            }
+
+        .titulo{
+            width: 68%;
+            justify-content: center;
+            margin: auto;
+            color:rgba(255, 255, 255, 0.479);
+            font-weight: lighter;
+
+        }
+        .comunidad::marker{color: aqua;}
+        .entradas{height: 100%;
+            padding: 10px;
+            width: 70%;
+            margin:50px auto;
+
+             box-shadow: 8px 6px rgba(61, 61, 61, 0.514);}
+        .img-news{
+            height: 200px; 
+            background-color: rgb(48, 48, 48);
+             margin-bottom:20px ;}
+        .usuarioContenedor{
+            display:flex;}
+
+        .usuario{width: 100px;
+            height: 100px;
+             border-radius: 50%;
+              margin-left: 20px;}
+         .puntaje{
+            width: 200px;
+            height: 100px;
+            margin-left: 20px;
+        }
+
+        .puntaje>i{color: rgb(250, 213, 1);
+            margin-top: 40px;
+            }
+
+        .descripcion{
+            margin: 20px 0px 0px 20px;}
+
+
+
+        footer{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: rgb(51, 51, 51);
+            margin-top: 30px;
+            height: 240px;
+            position: relative;
+           
+        }
+
+        
+
+        @media screen and (max-width:780px){
+            
+        .entradas{height: 100%;}
+
+
+            .usuarioContenedor{
+                padding: 10px 0px;
+               flex-flow: wrap;
+            }
+            
+            .puntaje{
+                margin-top:10px ;
+                width: 90%;
+            }
+
+            .descripcion{
+                margin: -30px 0px 0px 20px;}
+
+           
+
+            footer{
+                width: 100%;
+                height: 660px;
+            }          
+        }
+
+        @media screen and (max-width:420px){
+
+          body{
+            width: 600px;
+          }
+          
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+        <img class="logo" src="../assets/CHOOJ-header.png" width="100%" alt="logo">
+        </a>    
+        
+        <div class="busqueda" style="background-image:url('searchicon.png');">
+            <form action=""> <input type="text" name="search" placeholder="search">
+                <i class="fa-solid fa-magnifying-glass"></i></form>
+                
+                
+        </div>
+
+        <ul class="login">
+            <li>ingreso</li>
+            <li>registro</li>
+        </ul>
+    </header>
+
+
+    <!-- responsive search -->
+     <div class="container-busqueda">
+    <div class="busqueda-dos" >
+        <form action="">
+        <input type="text" name="search" placeholder="search">
+        
+    </form>
+    </div>
+</div>
+    <!-- end responsive search -->
+
+   
+
+    <section class="hamb" style="position: relative;" >
+        <i class="fa-solid fa-bars"></i>
+    <ul class="menu" >
+        <li><a href="../vistas/curso.html" target="_blank">Modulos</a></li>
+        <li><a href="../vistas/quienes-somos.html" target="_blank">Nosotros</a></li>
+        <li><a href="../vistas/iniciosesion.html" target="_blank">Certificacion</a></li>
+        <li><a href="../vistas/formulario.html"target="_blank">Contacto</a></li>
+        <li><a href="../vistas/blog.html"target="_blank">Noticias</a></li>
+        
+    </ul>    
+    </section>
+
+
+    
+
+
+    <div class="progress">
+        <div></div>
+    </div>
+
+
+    
+    <!-- start blog site -->
+    <h1 class="titulo">
+        NOTICIAS Y RECOMENDACIONES</h1>
+
+    <main>
+        <div class="container entradas">
+            <div class="img-news"></div>
+            <div class="usuarioContenedor">
+                <div class="usuario" >
+                    <img src="https://img.freepik.com/psd-gratis/ilustracion-3d-persona-gafas-sol-cabello-verde_23-2149436201.jpg?t=st=1725329625~exp=1725330225~hmac=c8ad3265a11127481035ecbc96e03c48a99c32b23453d0953100ebd0a657bd49" 
+                    width="100%" alt="avatar" style="border-radius: 50%;">
+                
+                </div>
+                <div class="puntaje" > <i class="fa-solid fa-star"></i>
+                    </div>
+            </div>
+                
+                <div class="descripcion">
+                    <h1>Un título</h1>
+                    <p>aqui podras ver la informacion</p>
+                    <span> <a href="#"> ver más...</a> </span>
+
+                </div>
+        </div>
+        <div class="container entradas">
+            <div class="img-news"></div>
+            <div class="usuarioContenedor">
+                <div class="usuario" >
+                    <img src="https://img.freepik.com/psd-gratis/ilustracion-3d-persona-gafas-sol-cabello-verde_23-2149436201.jpg?t=st=1725329625~exp=1725330225~hmac=c8ad3265a11127481035ecbc96e03c48a99c32b23453d0953100ebd0a657bd49" 
+                    width="100%" alt="avatar" style="border-radius: 50%;">
+                
+                </div>
+                <div class="puntaje" > <i class="fa-solid fa-star"></i>
+                    </div>
+            </div>
+                
+                <div class="descripcion">
+                    <h1>Un título</h1>
+                    <p>aqui podras ver la informacion</p>
+                </div>
+        </div>
+
+        <div class="container entradas">
+            <div class="img-news"></div>
+            <div class="usuarioContenedor">
+                <div class="usuario" >
+                    <img src="https://img.freepik.com/psd-gratis/ilustracion-3d-persona-gafas-sol-cabello-verde_23-2149436201.jpg?t=st=1725329625~exp=1725330225~hmac=c8ad3265a11127481035ecbc96e03c48a99c32b23453d0953100ebd0a657bd49" 
+                    width="100%" alt="avatar" style="border-radius: 50%;">
+                
+                </div>
+                <div class="puntaje" > <i class="fa-solid fa-star"></i>
+                    </div>
+            </div>
+                
+                <div class="descripcion">
+                    <h1>Un título</h1>
+                    <p>aqui podras ver la informacion</p>
+                </div>
+        </div>
+    
+    
+</main>
+
+<!-- start blog site -->
+
+
+<footer >
+    <div class="info">
+        <div class="nosotros">contact</div>
+        <div class="nosotros">contact</div>
+        <div class="nosotros">contact</div>
+    </div>
+    <div class="info">
+    <div class="nosotros-dos">nosotros</div>
+    <div class="nosotros-dos">nosotros</div>
+    <div class="nosotros-dos">nosotros</div>
+</div>
+    <div class="info">
+    
+        <div class="nosotros-tres">legal</div>
+        <div class="nosotros-tres">legal</div>
+        <div class="social">
+            <div class="redes"><i class="fa-brands fa-facebook"></i></div>
+            <div class="redes"><i class="fa-brands fa-tiktok"></i></div>
+            <div class="redes"><i class="fa-brands fa-telegram"></i></div>
+        </div>
+    </div>
+
+
+
+</footer>
+
+
+
+
+<script src="./js/index.js"></script>
+</body>
+</html>

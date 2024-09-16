@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./source/img/chooj-ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>CURSOS</title>
+</head>
+    <style>
+        .body{
+            height: 100%;
+            
+        }
+
+        #videoList{
+            border: 2px solid green;
+            display: flex;
+            flex-flow: column;
+            width: 10%;
+            height: 30%;
+            text-decoration: none;
+            list-style-type: none;
+             display: flex;
+            height: 50px;
+            margin: 20px 2px 2px 2px;
+    
+    justify-content: space-evenly;
+        }
+
+        button{
+            border: 2px solid green;
+            height: 50px;
+        }
+        .progress{
+    margin-bottom: 50px;
+    height: 0px;
+    margin: 10px;
+    width: 100%;
+    border: 2px solid rgba(139, 139, 139, 0);
+}
+
+@media screen and (max-width:780px){
+
+}
+
+
+    </style>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <img class="logo" src="../assets/CHOOJ-header.png" width="100%" alt="logo">
+         </a>
+        
+   
+        <div class="busqueda" >
+            <form action=""> <input type="text" name="search" placeholder="search">
+                <i class="fa-solid fa-magnifying-glass"></i></form>
+                
+                
+        </div>
+
+        <ul class="login">
+            <li>ingreso</li>
+            <li>registro</li>
+        </ul>
+    </header>
+
+
+    <!-- responsive search -->
+    <div class="busqueda-dos" >
+        <form action="">
+        <input type="text" name="search" placeholder="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        
+    </form>
+    </div>
+    <!-- end responsive search -->
+
+    <section class="hamb" style="position: relative;" >
+        <i class="fa-solid fa-bars"></i>
+    <ul class="menu" >
+        <li><a href="../vistas/curso.html" target="_blank">Modulos</a></li>
+        <li><a href="../vistas/quienes-somos.html" target="_blank">Nosotros</a></li>
+        <li><a href="../vistas/iniciosesion.html" target="_blank">Certificacion</a></li>
+        <li><a href="../vistas/formulario.html"target="_blank">Contacto</a></li>
+        <li><a href="../vistas/blog.html"target="_blank">Noticias</a></li>
+    </ul>    
+
+    </section>
+
+    <div class="progress">
+        <div></div>
+    </div>
+    
+<main>
+
+    <!-- <iframe id="videoPlayer" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+    <div id="videoList">
+        <!-- La lista de videos se llenará con JavaScript -->
+    </div>
+
+
+
+    <div class="container-uno">
+
+
+        <!-- <ul class="list" style=" position: relative;">
+            <li class="video-item" data-video="../assets/video-1.mp4" >cont</li>
+            <li class="video-item" data-video="video1.mp4">cont</li>
+            <li class="video-item" data-video="video1.mp4">cont</li>
+            <li class="video-item" data-video="video1.mp4">cont</li>
+            <li class="video-item" data-video="video1.mp4">cont</li>
+            <li class="video-item" data-video="video1.mp4">cont</li>
+            <li class="video-item" data-video="video1.mp4">cont</li>
+            <li class="video-item" data-video="video1.mp4">cont</li>
+
+        </ul> -->
+
+        
+
+        <div id="video-container" style="border: 2px solid green;">
+            <iframe   id="videoPlayer"  src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen width="800" height="600"></iframe>
+            <!-- <video id="video-player" controls style="width: 1200px;">
+                <source src="" type="video/mp4" >
+                Tu navegador no soporta el elemento de video.
+            </video> -->
+            <!-- <img class="video" id="vide-player" src="../assets/video-img2.jpg"  alt=""> -->
+        </div>
+
+        <!-- video reference -->
+       
+    </div>
+    <div class="container-tres">
+        <ul class="list-dos" style=" position: relative;">
+            <li class="video-item">cont</li>
+            <li class="video-item">cont</li>
+            <li class="video-item">cont</li>
+            <li class="video-item">cont</li>
+            <li class="video-item">cont</li>
+            <li class="video-item">cont</li>
+            <li class="video-item">cont</li>
+            <li class="video-item">cont</li>
+
+        </ul>
+
+
+    </div>
+
+
+</main>
+
+<footer >
+    <div class="info">
+        <div class="nosotros">contact</div>
+        <div class="nosotros">contact</div>
+        <div class="nosotros">contact</div>
+    </div>
+    <div class="info">
+    <div class="nosotros-dos">nosotros</div>
+    <div class="nosotros-dos">nosotros</div>
+    <div class="nosotros-dos">nosotros</div>
+</div>
+    <div class="info">
+    
+        <div class="nosotros-tres">legal</div>
+        <div class="nosotros-tres">legal</div>
+        <div class="social">
+            <div class="redes"><i class="fa-brands fa-facebook"></i></div>
+            <div class="redes"><i class="fa-brands fa-tiktok"></i></div>
+            <div class="redes"><i class="fa-brands fa-telegram"></i></div>
+        </div>
+ ,.   </div>
+
+
+
+</footer>
+
+
+
+<script src="../js/curso.js"></script>
+<!-- <script src="../js/index.js"></script> -->
+</body>
+</html>
