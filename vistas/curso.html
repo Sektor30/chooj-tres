@@ -5,49 +5,11 @@
     <link rel="shortcut icon" href="./source/img/chooj-ico.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/curso.css">
     <link rel="stylesheet" href="../css/style.css">
     <title>CURSOS</title>
 </head>
-    <style>
-        .body{
-            height: 100%;
-            
-        }
-
-        #videoList{
-            border: 2px solid green;
-            display: flex;
-            flex-flow: column;
-            width: 10%;
-            height: 30%;
-            text-decoration: none;
-            list-style-type: none;
-             display: flex;
-            height: 50px;
-            margin: 20px 2px 2px 2px;
-    
-    justify-content: space-evenly;
-        }
-
-        button{
-            border: 2px solid green;
-            height: 50px;
-        }
-        .progress{
-    margin-bottom: 50px;
-    height: 0px;
-    margin: 10px;
-    width: 100%;
-    border: 2px solid rgba(139, 139, 139, 0);
-}
-
-@media screen and (max-width:780px){
-
-}
-
-
-    </style>
-
+   
 <body>
     <header>
         <a href="../index.html">
@@ -98,30 +60,20 @@
 <main>
 
     <!-- <iframe id="videoPlayer" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+
+
+
+    <!-- LISTA DE VIDEOS -->
     <div id="videoList">
         <!-- La lista de videos se llenará con JavaScript -->
     </div>
 
 
 
-    <div class="container-uno">
+    <div class="container-uno">        
 
+        <div id="video-container" style=" width: 70%; margin: auto;">
 
-        <!-- <ul class="list" style=" position: relative;">
-            <li class="video-item" data-video="../assets/video-1.mp4" >cont</li>
-            <li class="video-item" data-video="video1.mp4">cont</li>
-            <li class="video-item" data-video="video1.mp4">cont</li>
-            <li class="video-item" data-video="video1.mp4">cont</li>
-            <li class="video-item" data-video="video1.mp4">cont</li>
-            <li class="video-item" data-video="video1.mp4">cont</li>
-            <li class="video-item" data-video="video1.mp4">cont</li>
-            <li class="video-item" data-video="video1.mp4">cont</li>
-
-        </ul> -->
-
-        
-
-        <div id="video-container" style="border: 2px solid green;">
             <iframe   id="videoPlayer"  src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen width="800" height="600"></iframe>
             <!-- <video id="video-player" controls style="width: 1200px;">
                 <source src="" type="video/mp4" >
@@ -132,7 +84,7 @@
 
         <!-- video reference -->
        
-    </div>
+  <!--   </div>
     <div class="container-tres">
         <ul class="list-dos" style=" position: relative;">
             <li class="video-item">cont</li>
@@ -147,7 +99,7 @@
         </ul>
 
 
-    </div>
+    </div> -->
 
 
 </main>

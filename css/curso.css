@@ -1,0 +1,56 @@
+.body{
+    height: 100%;
+    
+}
+
+#videoList{
+    
+    display: flex;
+    flex-flow: column;
+    width: 10%;
+    height: 30%;
+    text-decoration: none;
+    list-style-type: none;
+     display: flex;
+    height: 50px;
+    margin: 80px 2px 2px 2px;
+
+justify-content: space-evenly;
+}
+
+button{
+   
+    margin: 20px;
+    font-size: 40px;
+    height: 50px;
+    width: 500px;
+}
+
+
+
+
+.progress{
+margin-bottom: 50px;
+height: 0px;
+margin: 10px;
+width: 100%;
+border: 2px solid rgba(139, 139, 139, 0);
+}
+
+@media screen and (max-width:1200px){
+
+    #videoPlayer{
+        
+        position: relative;
+        display: block;
+        top: 500px;
+        width: 100%;
+    }
+
+
+    footer{
+       
+
+    }
+
+}
