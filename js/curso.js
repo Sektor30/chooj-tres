@@ -16,11 +16,15 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     const videos = [
-        { title: 'Video de YouTube 1', src: 'https://www.youtube.com/embed/exUt98d7jVk', type: 'youtube' },
+        
+        { title: 'primer video', src: 'https://www.youtube.com/embed/exUt98d7jVk', type: 'youtube' },
+        { title: 'otro video mateo', src: 'https://www.youtube.com/embed/exUt98d7jVk', type: 'youtube' },
         { title: 'Video Local 1', src: 'videos/video1.mp4', type: 'local' },
         { title: 'Video Local 2', src: 'videos/video2.mp4', type: 'local' },
-        { title: 'Video de YouTube 1', src: 'https://www.youtube.com/embed/eW3gMGqcZQc', type: 'youtube' },
-        { title: 'Video de YouTube 2', src: 'https://www.youtube.com/embed/tgbNymZ7vqY', type: 'youtube' }
+        { title: 'segundo video', src: 'https://www.youtube.com/embed/eW3gMGqcZQc', type: 'youtube' },
+        { title: 'tercer video' , src: 'https://www.youtube.com/embed/tgbNymZ7vqY', type: 'youtube' }
+        
+        
     ];
 
 const videoList = document.getElementById('videoList');

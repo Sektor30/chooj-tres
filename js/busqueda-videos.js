@@ -15,7 +15,7 @@ function mostrarResults(videos){
 
         const box = document.createElement('div')
         box.classList.add("box")
-
+        
 
         box.innerHTML = `
         <div class="card">
